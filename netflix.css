@@ -1,0 +1,426 @@
+body{
+    background-color: black;
+}
+.logo{
+    margin-left: 100px;
+
+    margin-top: 30px;
+    width: 130;
+    
+    
+}
+.btn{
+    /* margin-left: 1050px; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 9, 20);
+    width: 90px;
+    height: 36px;
+    font-style: italic;
+    font-size: large;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+.Container {
+    position: relative;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./image.jpg);
+
+    height: 100%;
+}
+    
+
+.sub-container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subcontainer2{
+
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    margin-top:200px;
+}
+.lang{
+
+    /* margin-left: 1200px; */
+     font-style:initial;
+      padding: 8px;
+      background: #00000061;
+      border:#f1f1f1;
+      min-width: auto;
+      width: auto;
+      color: rgb(255,255,255);
+      font-weight: bold;
+      cursor: pointer;
+      
+      /* margin-bottom: ; */
+    
+}
+.global{
+
+    align-items: baseline;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+.lang-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.sign{
+    margin-right: 200px;
+   
+}
+
+/*text 1----------------------------*/
+
+
+
+.content{
+
+
+    
+    color: rgb(255,255,255);
+    margin-left: 291px;
+   
+    margin-top: 117px;
+}
+.content h1{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   
+}
+
+   
+
+p{
+
+    display:flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-bottom: 10px;
+    margin-right: 100px;
+
+}
+
+
+
+    
+    
+
+
+.par{
+
+    margin-left: 244px;
+    font-style: normal\;
+}
+.mail{
+
+  margin-left: 565px;
+ ;
+}
+.srch-edit{
+
+    color: burlywood;
+    width: 421px;
+    height: 53px;
+    background-color: transparent;
+    text-align: 50px;
+    
+}
+
+.button-start{
+   color: rgb(255, 255, 255);
+    background-color:  rgb(229, 9, 20);
+    width: 133px;
+    height: 52px; 
+    font-size: large;
+    font-style: italic;
+    border: 0px;
+    cursor: pointer;
+    
+}
+.features{
+    height: 514px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.features:nth-child(2), .features:nth-child(4){
+    flex-direction: column-reverse;
+}
+.features h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+} 
+
+.features-text{
+    color: aliceblue;
+    font-size: 28px;
+    margin-top: 123px;
+    margin-left: 183px;
+    
+
+}
+.features-pic{
+    margin-left: 789px;
+    margin-bottom: 0px;
+}
+
+.imgf{
+    margin-bottom: 0px;
+    background-color: rgb(204, 204, 204);
+    padding: 0px;
+    margin-left: 200px;
+}
+
+
+.stranger{
+
+    background-color: black;
+    width: 100%;
+    height: 514px;
+}
+
+
+
+
+
+
+
+
+.features3 {
+    display: flex;
+    width: 100%;
+}
+
+.features-pic3, .features-text3 {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.features-pic3 img {
+    width: 100%;
+    height: auto;
+}
+
+.features-text3 {
+    color: aliceblue;
+    font-size: 28px;
+    padding: 86px;
+}
+.features2 {
+    display: flex;
+    width: 100%;
+}
+
+.features-pic2, .features-text2 {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.features-pic2 img {
+    width: 100%;
+    height: auto;
+}
+
+.features-text2 {
+    color: aliceblue;
+    font-size: 26px;
+    border: 0px;
+    padding: 43px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+
+
+.dwn {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    height: 700px;
+    flex-direction: column;
+}
+
+.dwn h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+
+.accordin {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.accordin li {
+    list-style: none;
+    font-weight: 400;
+    padding: 20px;
+    
+}
+
+
+.accordin li label {
+    background-color: #303030;
+    display: flex;
+    text-align: start;
+    padding: 30px;
+    position: relative;
+    justify-self:flex-start;
+    
+    
+}
+.accordin li label:hover{
+    background-color: #717171;
+
+}
+.center-piece {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label::after {
+    /* Add a valid content value, such as an empty string */
+    content: '+';
+
+    /* Additional styles for the pseudo-element */
+    font-size: 35px;
+    right: 20px;
+    position: absolute;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordin .pg {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    background-color: #303030;
+    transition: max-height 0.5s ;
+}
+
+.accordin label {
+    display: block;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+.accordin input[type="radio"]:checked ~ .pg {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+
+
+
+
+.pg{
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.sml{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+
+
+
+.mailtwo{
+
+margin-left: 500px;
+  }
+  .srch-edittwo{
+  
+      color: burlywood;
+      width: 421px;
+      height: 53px;
+      background-color: transparent;
+      text-align: 50px;
+      
+  }
+  
+  .button-starttwo{
+     color: rgb(255, 255, 255);
+      background-color:  rgb(229, 9, 20);
+      width: 133px;
+      height: 52px; 
+      font-size: large;
+      font-style: italic;
+      border: 0px;
+      cursor: pointer;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15% 15px;
+    border-top: 6px solid #333;
+    color: #777;
+  }
+  
+  .hdng {
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+  }
+  
+  .footer .row {
+    width: 100%;
+    display: flex;
+    flex: 6;
+   
+    flex-direction: row;
+  }
+  
+ 
+  .footer .colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    color: #ccc; /* This will set the text color for the .colum class */
+  }
+  .footer .colum a {
+color: rgba(255,255,255,0.7);   
+border-radius: 0.125rem;
+margin: 8px 0;
+}
+
+
+
+  
